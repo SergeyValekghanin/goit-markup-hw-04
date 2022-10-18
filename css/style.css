@@ -545,6 +545,11 @@ body {
   background-color: var(--acent);
 }
 
+.footer-pos {
+  display: flex;
+  gap: 70px;
+}
+
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
