@@ -32,6 +32,8 @@
   --svg-soc-icon: #afb1b8;
   --svg-color-hover: #ffffff;
   --svg-client: #afb1b8;
+  --title-join: #ffffff;
+  --svg-color-footer: #ffffff;
 }
 
 /*==== скидання стилів =====*/
@@ -434,6 +436,7 @@ body {
 
 /* ==================FOOTER================== */
 .footer {
+  /* display: flex; */
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bkg);
@@ -483,6 +486,63 @@ body {
 .footer-mail-phoneess:hover,
 .footer-mail-phoneess:focus {
   color: var(--acent);
+}
+
+.title-join {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-join);
+  margin-bottom: 20px;
+}
+
+.soc-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.soc-item-footer {
+  width: 44px;
+  height: 44px;
+}
+
+.soc-item-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--svg-color-footer);
+  background-color: #1388e7;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ins-foo {
+  fill: currentColor;
+}
+
+.twi-foo {
+  fill: currentColor;
+}
+
+.fac-foo {
+  fill: currentColor;
+}
+
+.lin-foo {
+  fill: currentColor;
+}
+
+.soc-item-link-footer:hover,
+.soc-item-link-footer:focus {
+  background-color: var(--acent);
 }
 
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
