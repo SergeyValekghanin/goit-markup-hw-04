@@ -344,11 +344,17 @@ body {
   height: 44px;
 }
 .soc-item-link {
-  width: 100%;
-  height: 100%;
-  background: tomato;
+  width: 44px;
+  height: 44px;
+  outline: 1px solid red;
   display: block;
   border-radius: 50%;
+}
+
+.intagram-soc-item{
+  fill: #2196f3;
+  width: 44px;
+  height: 44px;
 }
 
 /* ==== Наші клієнти ==== */
