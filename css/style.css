@@ -29,6 +29,7 @@
   --icon-benefit: #f5f4fa;
   --svg-tel: #757575;
   --svg-envelope: #757575;
+  --svg-soc-icon: #afb1b8;
 }
 
 /*==== скидання стилів =====*/
@@ -172,7 +173,6 @@ body {
 .header-contact:focus {
   color: var(--acent);
 }
-
 
 /* =============HERO=============== */
 
@@ -339,22 +339,31 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
 .soc-item {
   width: 44px;
   height: 44px;
 }
+
 .soc-item-link {
-  width: 44px;
-  height: 44px;
-  outline: 1px solid red;
-  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-color: tomato; */
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--svg-soc-icon);
 }
 
-.intagram-soc-item{
-  fill: #2196f3;
-  width: 44px;
-  height: 44px;
+.ins {
+  fill: currentColor;
+}
+
+.soc-item-link:hover,
+.soc-item-link:focus {
+  background-color: var(--acent);
+  color: #ffffff;
 }
 
 /* ==== Наші клієнти ==== */
