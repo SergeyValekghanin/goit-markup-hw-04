@@ -446,7 +446,6 @@ body {
   margin: 0 auto;
 }
 
-
 .logo-footer {
   font-family: 'Raleway';
   font-style: normal;
@@ -491,6 +490,12 @@ body {
 .footer-mail-phoneess:hover,
 .footer-mail-phoneess:focus {
   color: var(--acent);
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 70px;
+  align-items: baseline;
 }
 
 .title-join {
@@ -548,12 +553,6 @@ body {
 .soc-item-link-footer:hover,
 .soc-item-link-footer:focus {
   background-color: var(--acent);
-}
-
-.footer-wrap {
-  display: flex;
-  gap: 70px;
-  align-items: baseline;
 }
 
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
