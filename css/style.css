@@ -300,6 +300,8 @@ body {
 /* <!-- Наша команда --> */
 .section-our-team {
   background-color: var(--bkg-section-our-team);
+  width: 1600px;
+  margin: 0 auto;
 }
 .team-container {
   display: flex;
@@ -440,7 +442,10 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bkg);
+  width: 1600px;
+  margin: 0 auto;
 }
+
 
 .logo-footer {
   font-family: 'Raleway';
@@ -545,9 +550,10 @@ body {
   background-color: var(--acent);
 }
 
-.footer-pos {
+.footer-wrap {
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 
 /*==== Portfolio ====*/ /*==== Portfolio ====*/
