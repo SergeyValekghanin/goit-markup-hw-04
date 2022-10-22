@@ -88,6 +88,8 @@ body {
 /* ====HEADER ====*/
 .heder-section {
   border-bottom: 1px solid var(--border-heder);
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -162,6 +164,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 .svg-envelope {
@@ -204,6 +208,9 @@ body {
 
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .button-hero {
@@ -246,6 +253,7 @@ body {
 .list-benefits {
   display: flex;
   gap: 30px;
+  
 }
 
 .icon-area {
@@ -253,8 +261,11 @@ body {
   border-radius: 4px;
   justify-content: center;
   background-color: var(--icon-benefit);
-  padding: 25px 102px;
-  margin-bottom: 30px;
+  /* padding: 25px 102px; */
+  margin-bottom: 30px; 
+  width: 270px;
+  height: 120px;
+  align-items: center;
 }
 
 .title {
@@ -410,23 +421,7 @@ body {
   color: var(--svg-client);
 }
 
-.client1 {
-  fill: currentColor;
-}
-.client2 {
-  fill: currentColor;
-}
-.client3 {
-  fill: currentColor;
-}
-.client4 {
-  fill: currentColor;
-}
-
-.client5 {
-  fill: currentColor;
-}
-.client6 {
+.client {
   fill: currentColor;
 }
 
@@ -442,8 +437,8 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bkg);
-  width: 1600px;
-  margin: 0 auto;
+  /* width: 1600px;
+  margin: 0 auto; */
 }
 
 .logo-footer {
