@@ -309,8 +309,8 @@ body {
 /* <!-- Наша команда --> */
 .section-our-team {
   background-color: var(--bkg-section-our-team);
-  width: 1600px;
-  margin: 0 auto;
+  /* width: 1600px;
+  margin: 0 auto; */
 }
 .team-container {
   display: flex;
